@@ -2,7 +2,7 @@ name = "cf-workers-webssh"
 main = "src/worker.ts"
 compatibility_date = "2026-07-01"
 routes = [
-  { pattern = "webssh.gyf123.dpdns.org/", custom_domain = true }
+  { pattern = "webssh.gyf123.dpdns.org", custom_domain = true }
 ]
 workers_dev = false
 
